@@ -1,0 +1,68 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #6a11cb, #2575fc); /* Degradado de azul a rosa */
+    margin: 0;
+    padding: 20px;
+}
+
+#seccion {
+    max-width: 600px; /* Limitar el ancho de la sección */
+    margin: auto; /* Centrar la sección */
+    background-color: white; /* Fondo blanco para la sección */
+    padding: 40px; /* Espaciado interno */
+    border-radius: 12px; /* Bordes redondeados */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+button {
+    background-color: #9d00ff; /* Color azul Bootstrap */
+    color: white; /* Texto blanco */
+    border: none; /* Sin bordes */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 10px 15px; /* Espaciado interno */
+    cursor: pointer; /* Cambiar cursor al pasar el mouse */
+    margin: 5px; /* Espaciado entre botones */
+    transition: background-color 0.3s; /* Transición suave */
+}
+
+button:disabled {
+    background-color: #cccccc; /* Color gris para botón deshabilitado */
+}
+
+button:hover:not(:disabled) {
+    background-color: #0056b3; /* Color más oscuro al pasar el mouse */
+}
+
+.progress {
+    background-color: #e9ecef; /* Color de fondo de la barra de progreso */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+.progress-bar {
+    background-color: #28a745; /* Color verde para la barra de progreso */
+    transition: width 0.4s; /* Transición suave para el ancho */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+ul {
+    list-style-type: none; /* Sin viñetas */
+    padding: 0; /* Sin espaciado interno */
+}
+
+li {
+    background-color: #f0f0f0; /* Color de fondo para cada tarea */
+    margin: 10px 0; /* Espaciado entre tareas */
+    padding: 15px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambiar cursor al pasar el mouse */
+    transition: background-color 0.3s; /* Transición suave */
+}
+
+li:hover {
+    background-color: #d1ecf1; /* Color al pasar el mouse */
+}
+
+.completado {
+    text-decoration: line-through; /* Tachado para tareas completadas */
+    color: #6c757d; /* Color gris para tareas completadas */
+}
